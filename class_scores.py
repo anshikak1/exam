@@ -26,7 +26,7 @@ def create_bar_chart(data):
     ax.bar(top_10_students['Student_Name'], top_10_students['Exam_Score'])
     ax.set_xlabel('Student Name')
     ax.set_ylabel('Exam Score')
-    ax.set_xticklabels(top_10_students['Student Name'], rotation=45)
+    ax.set_xticklabels(top_10_students['Student_Name'], rotation=45)
     st.pyplot(fig)
 
 def main():
